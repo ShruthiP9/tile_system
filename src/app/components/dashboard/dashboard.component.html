@@ -1,0 +1,41 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="https://windowsmenutheme.000webhostapp.com/css/animate.css" rel="stylesheet">
+<link href="https://windowsmenutheme.000webhostapp.com/css/bootstrap.css" rel="stylesheet">
+<link href="https://windowsmenutheme.000webhostapp.com/css/hover.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="container">
+    <h2 class="text-right"> Administrator <img src='/assets/images/logo.jpg'></h2>
+    <section class="cms-boxes">
+
+
+        <div class="container-fluid">
+            <div *ngFor="let tilesdata of tilesData">
+                <div class="col-sm-3 cms-boxes-outer" [ngClass]="{'headShakeY': tilesdata.notification_color == 'high', 'scaleIn': tilesdata.notification_color == 'medium', 'rotateX-delay': tilesdata.notification_color == 'low'}">
+                    <div class="cms-boxes-items col-sm-12" [ngClass]="{'cms-security': tilesdata.notification_color == 'high', 'cms-features': tilesdata.notification_color == 'medium', 'cms-scalability': tilesdata.notification_color == 'low'}">
+                        <div class="small-box col-sm-12">
+                            <i class="fa fa-5x fa-laptop col-sm-6">&nbsp;</i>
+
+                            <div class="col-sm-6">
+                                <h1>15%</h1>
+                            </div>
+
+                            <div class="col-sm-12">
+
+                                <h3>{{tilesdata.name}}</h3>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>

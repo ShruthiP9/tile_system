@@ -1,0 +1,84 @@
+.container {
+    background-color: #f4f8f9;
+}
+
+.fa.fa-5x {
+    justify-content: flex-start;
+    color: #f4f8f9;
+}
+
+h1 {
+    justify-content: flex-end;
+    color: #f4f8f9;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+    justify-content: flex-end;
+}
+
+section.cms-boxes .cms-boxes-outer {
+    padding: 15px;
+}
+
+section.cms-boxes .cms-features {
+    background-color: #f84255!important;
+    background-size: cover;
+}
+
+section.cms-boxes .cms-boxes-items h3 {
+    font-size: 15px;
+    color: #f4f8f9;
+    font-weight: 200;
+    line-height: 27px;
+    align-items: flex-end;
+    margin: 20px 10px;
+    text-transform: uppercase;
+    height: 170px;
+}
+
+section.cms-boxes .cms-boxes-outer .cms-boxes-items p {
+    color: #f4f8f9;
+}
+
+section.cms-boxes .cms-boxes-outer .cms-boxes-items {
+    display: block;
+    width: 100%;
+    border-radius: 6px;
+    box-shadow: 5px 5px #888888;
+    height: 170px;
+}
+
+section.cms-boxes .cms-features {
+    background-size: cover;
+}
+
+section.cms-boxes .cms-security {
+    background-color: #0489b7;
+}
+
+section.cms-boxes .cms-security,
+section.cms-boxes .cms-documentation {
+    background-color: #28a745!important;
+}
+
+section.cms-boxes .cms-scalability {
+    background-color: #28a745!important;
+    background-size: cover;
+}
+
+section.cms-boxes .cms-built {
+    background-color: #ffc107!important;
+    background-size: cover;
+}
+
+section.cms-boxes .cms-security,
+section.cms-boxes .cms-documentation {
+    background-color: #ffc107!important;
+}
+
+section.cms-boxes .cms-boxes-items:hover {
+    opacity: .2;
+    cursor: pointer;
+}
