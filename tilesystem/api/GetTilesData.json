@@ -1,0 +1,149 @@
+{
+    "tiles": [{
+            "name": "Allocation for the year ",
+            "notification_color": "high",
+            "disable_movements": "true",
+            "url_to_redirect": "/relationshipReport/data-entry/school-allocation/",
+            "tile_visible": "true",
+            "tile_blinking": "true"
+
+        },
+        {
+            "name": "Pending Payment",
+            "notification_color": "medium",
+            "disable_movements": "false",
+            "url_to_redirect": "/relationshipReport/data-entry/school-allocation/",
+            "tile_visible": "true",
+            "tile_blinking": "false"
+        },
+        {
+            "name": "Unresolved Tickets",
+            "notification_color": "low",
+            "disable_movements": "false",
+            "url_to_redirect": "/relationshipReport/data-entry/school-allocation/",
+            "tile_visible": "false",
+            "tile_blinking": "false"
+        },
+        {
+            "name": "Allocation(replacement of team member ",
+            "notification_color": "medium",
+            "disable_movements": "false",
+            "url_to_redirect": "/relationshipReport/data-entry/school-allocation/",
+            "tile_visible": "true",
+            "tile_blinking": "false"
+        },
+        {
+            "name": "Student break-up",
+            "notification_color": "low",
+            "disable_movements": "false",
+            "url_to_redirect": "/relationshipReport/data-entry/school-allocation/",
+            "tile_visible": "false",
+            "tile_blinking": "false"
+        },
+        {
+            "name": "Pending Analysis Dispatch",
+            "notification_color": "high",
+            "disable_movements": "true",
+            "url_to_redirect": "/relationshipReport/data-entry/school-allocation/",
+            "tile_visible": "true",
+            "tile_blinking": "true"
+        },
+        {
+            "name": "Student list-pending",
+            "notification_color": "medium",
+            "disable_movements": "false",
+            "url_to_redirect": "/relationshipReport/data-entry/school-allocation/",
+            "tile_visible": "true",
+            "tile_blinking": "false"
+        },
+        {
+            "name": "Status of papers dispatched but not",
+            "notification_color": "high",
+            "disable_movements": "true",
+            "url_to_redirect": "/relationshipReport/data-entry/school-allocation/",
+            "tile_visible": "true",
+            "tile_blinking": "true"
+        },
+        {
+            "name": "OMRs not received",
+            "notification_color": "high",
+            "disable_movements": "true",
+            "url_to_redirect": "/relationshipReport/data-entry/school-allocation/",
+            "tile_visible": "true",
+            "tile_blinking": "true"
+        },
+        {
+            "name": "Schools visited by RMs notforecasted",
+            "notification_color": "medium",
+            "disable_movements": "false",
+            "url_to_redirect": "/relationshipReport/data-entry/school-allocation/",
+            "tile_visible": "true",
+            "tile_blinking": "false"
+        },
+        {
+            "name": "IRA/NFRA – recovery",
+            "notification_color": "low",
+            "disable_movements": "false",
+            "url_to_redirect": "/relationshipReport/data-entry/school-allocation/",
+            "tile_visible": "false",
+            "tile_blinking": "false"
+        },
+        {
+            "name": "Session status (Orientation/MYR/EYR)",
+            "notification_color": "high",
+            "disable_movements": "true",
+            "url_to_redirect": "/relationshipReport/data-entry/school-allocation/",
+            "tile_visible": "true",
+            "tile_blinking": "true"
+        },
+        {
+            "name": "Pending Exception handling ",
+            "notification_color": "medium",
+            "disable_movements": "false",
+            "url_to_redirect": "/relationshipReport/data-entry/school-allocation/",
+            "tile_visible": "true",
+            "tile_blinking": "false"
+        },
+        {
+            "name": "Pending deactivation of IDs, not being used",
+            "notification_color": "low",
+            "disable_movements": "false",
+            "url_to_redirect": "/relationshipReport/data-entry/school-allocation/",
+            "tile_visible": "false",
+            "tile_blinking": "false"
+        },
+
+        {
+            "name": "Usage based pilot pending",
+            "notification_color": "low",
+            "disable_movements": "false",
+            "url_to_redirect": "/relationshipReport/data-entry/school-allocation/",
+            "tile_visible": "false",
+            "tile_blinking": "false"
+        },
+        {
+            "name": "Forecasted schools not visited",
+            "notification_color": "high",
+            "disable_movements": "true",
+            "url_to_redirect": "/relationshipReport/data-entry/school-allocation/",
+            "tile_visible": "true",
+            "tile_blinking": "true"
+        },
+        {
+            "name": "Schools with more than 5 visits ",
+            "notification_color": "medium",
+            "disable_movements": "false",
+            "url_to_redirect": "/relationshipReport/data-entry/school-allocation/",
+            "tile_visible": "true",
+            "tile_blinking": "false"
+        },
+        {
+            "name": "Forecast date change ",
+            "notification_color": "low",
+            "disable_movements": "false",
+            "url_to_redirect": "/relationshipReport/data-entry/school-allocation/",
+            "tile_visible": "false",
+            "tile_blinking": "false"
+        }
+    ]
+}

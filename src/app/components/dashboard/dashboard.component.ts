@@ -1,4 +1,3 @@
-import { CardComponent } from './../card/card.component';
 import { SERVICE_CONSTANTS } from './../../app.constants';
 import { Response } from '@angular/http';
 import { DashboardService } from './../../services/dashboard.service';
